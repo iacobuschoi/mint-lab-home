@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+.logo {
+    width: 10vw;
+    opacity: 0.5;
+}
+.logo:hover {
+    opacity: 1;
+}
+
+.home-map-container {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: 80vw;
+    height: 40vw;
+    background-color: #676767;
+    overflow: hidden;
+}
+.left-container-wrap {
+    filter: drop-shadow(0 0 10px rgb(61, 61, 61));
+}
+.left-container {
+    position: absolute;
+    transform: translateX(-57vw);
+    height: 40vw;
+    width: 100vw;
+    background-color: whitesmoke;
+    clip-path: polygon(0 0, 100% 0, 83% 100%, 0% 100%);
+    display: flex;
+    justify-content: flex-end;
+    transition: transform .5s ease;
+}
+.left-container-label {
+    height: 100%;
+    width: 100%;
+    background-color: #69AA70;
+    clip-path: polygon(92% 0, 100% 0%, 83% 100%, 75% 100%);
+}
+
+.right-container-wrap {
+    filter: drop-shadow(0 0 10px rgb(61, 61, 61));
+}
+.right-container { 
+    position: absolute;
+    transform: translateX(37vw);
+    height: 40vw;
+    width: 100vw;
+    background-color: whitesmoke;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 17% 100%);
+    display: flex;
+    justify-content: flex-start;
+    transition: transform .5s ease;
+}
+.right-container-label {
+    height: 100%;
+    width: 100%;
+    background-color: #69AA70;
+    clip-path: polygon(0 0, 8% 0, 25% 100%, 17% 100%);
+}
+
+.bottom-container-wrap {
+    filter: drop-shadow(0 0 10px rgb(61, 61, 61));
+}
+.bottom-container {
+    position: absolute;
+    transform: translateY(28vw);
+    height: 50vw;
+    width: 80vw;
+    background-color: whitesmoke;
+    clip-path: polygon(0 14%, 100% 0, 100% 100%, 0% 100%);
+    display: flex;
+    align-items: flex-start;
+    transition: transform .5s ease;
+}
+.bottom-container-label {
+    height: 100%;
+    width: 100%;
+    background-color: #69AA70;
+    clip-path: polygon(0 14%, 100% 0%, 100% 13%, 0 27%);
+}
+
+.top-container-wrap {
+    filter: drop-shadow(0 0 10px rgb(61, 61, 61));
+}
+.top-container {
+    width: 80vw;
+    height: 6vw;
+    background-color: #69AA70;
+}
+
+.home-title {
+    font-family: "Montserrat", sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333;
+
+    margin-bottom: 2vw;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+}
+.home-title span {
+    color: #7bc685;
+}
+
+.home-container {
+    width: 100vw;
+    height: 50vw;
+    align-items: center;
+    align-content: space-around;
+}
