@@ -98,8 +98,9 @@ body {
     font-size: 3rem;
     font-weight: bold;
     color: #333;
-
+    margin: 10vw;
     margin-bottom: 2vw;
+    margin-top: 2vw;
     text-align: center;
     align-items: center;
     justify-items: center;
