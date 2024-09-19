@@ -5,13 +5,6 @@
 body {
     overflow-x: hidden;
 }
-.logo {
-    width: 10vw;
-    opacity: 0.5;
-}
-.logo:hover {
-    opacity: 1;
-}
 
 .home-map-container {
     margin-left: 10vw;
@@ -100,7 +93,7 @@ body {
     color: #333;
     margin: 10vw;
     margin-bottom: 2vw;
-    margin-top: 2vw;
+    margin-top: 3vw;
     text-align: center;
     align-items: center;
     justify-items: center;
@@ -113,6 +106,5 @@ body {
 .home-container {
     width: 100vw;
     height: 50vw;
-    align-items: center;
-    align-content: space-around;
+    align-content: flex-start;
 }
